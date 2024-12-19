@@ -3,28 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="estilo-indicações.css" rel="stylesheet">
+  <link href="Css/estilo-indicações.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-  <title>Indicações</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+   <title>Indicações</title>
 </head>
 <body>
-   <header>
-    <img src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
-    
-      <nav>
-        <ul class="nav-list">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Indicacoes.html">Indicações</a></li>
-            <li><a href="Avaliacoes.html">Avaliações</a></li>
-            <li><a href="ListaDeEspera.html">Lista de espera</a></li>
-            <li><a href="PorQueLer.html">Por que ler?</a></li>
-            <li><a href="História.html">História</a></li>
-            <li><a href="Reviews.html">Reviews</a></li>
-            <li><a href="Desenvolvedores.html">Atlas Company</a></li>
-        </ul>
-      </nav>
-  </header>
-
+  <header class="cabecalho">
+    <div class="header-content"> 
+     <img class="logo"src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
+     <nav class="uk-navbar-container">
+     <div class="uk-container">
+         <div uk-navbar>
+ 
+             <div class="uk-navbar-left">
+                 <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                 <div class="uk-navbar-dropdown">
+                     <ul class="uk-nav uk-navbar-dropdown-nav">
+                         <li class="uk-active"><a href="index.html">Home</a></li>
+                         <li class="uk-active"><a href="Indicacoes.html">Indicações</a></li>
+                         <li class="uk-active"><a href="Avaliacoes.html">Avaliações</a></li>
+                         <li class="uk-active"><a href="ListaDeEspera.html">Lista de espera</a></li>
+                         <li class="uk-active"><a href="PorQueLer.html">Por que ler?</a></li>
+                         <li class="uk-active"><a href="História.html">História</a></li>
+                         <li class="uk-active"><a href="Reviews.html">Reviews</a></li>
+                         <li class="uk-active"><a href="Desenvolvedores.html">Atlas Company</a></li>
+                     </ul>
+                 </div>
+             </div>
+ 
+         </div>
+     </div>
+ </nav>
+   
+   </div>
+ </header>
     <div class="comoFunciona">
       <h1>Como as indicações funcionam?</h1>
       <p>As indicações da biblioteca são feitas com carinho pelos nossos funcionários e mudam semanalmente. Pensamos em trazer histórias e conhecimentos que podem te inspirar, ensinar ou simplesmente fazer companhia. Cada escolha tem um pedacinho do que achamos especial. Dito isso, boa leitura!</p>
@@ -86,5 +103,7 @@
        <a href="mailto:atlas.company.tech@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email%20aqui."><i class="bi bi-envelope"></i></a>
      </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
 </body>
 </html>
