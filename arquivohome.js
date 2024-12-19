@@ -5,7 +5,7 @@ const prevButton = document.querySelector('.ante');
 const nextButton = document.querySelector('.prox'); 
 
 function changeImage() {
-  const offset = -currentIndex * 100; 
+  const offset = -currentIndex * 106; 
   document.querySelector('.imagens').style.transform = `translateX(${offset}%)`;
 }
 function prevImage() {
