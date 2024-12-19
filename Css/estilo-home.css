@@ -1,1 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.google.com/specimen/Merriweather+Sans');
+@import url('https://fonts.google.com/specimen/Inknut+Antiqua?query=Inknut+Antiqua');
 
+body{
+    background-color: #F3EDDF;
+}
+header {
+    background-color: #0C1E33; 
+    text-align: center;
+    display: flex; 
+    justify-content:center;
+   }
+.cabecalho{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+}
+.header-content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  position: relative;
+  height: 120px; 
+}
+.uk-navbar-container {
+     position: absolute; 
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color:#0C1E33 !important;
+     padding-bottom: 35px !important;
+     max-width: 190px;
+    }
+.logo {
+  display: block;
+  max-width: 200px; 
+  margin-top: 20px; 
+}
+.uk-navbar-dropdown{
+    background-color:#0C1E33 !important;
+    padding-left:30px;
+    padding-top:0px;
+    padding-bottom:5px;
+    
+}
+.uk-active a {
+    color: white !important;
+    font-family: Inknut Antiqua,serif;
+    font-size: 20px;
+}
+h1{
+    font-family: "Cinzel Decorative", serif;
+    color:#0C1E33;
+}
+h2, p, i{
+    font-family:Merriweather Sans, sans-serif;
+    color: #0C1E33;
+}
+
+h3,h5{
+    font-family: Inknut Antiqua;
+    color: #0C1E33;
+}
+/*até aqui é igual para todos!*/
+.carrossel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+.carrossel {
+  width: 80%;
+  max-width: 600px; 
+  margin: auto;
+  position: relative;
+  overflow: hidden; 
+}
+
+.imagens {
+  display: flex;
+  transition: transform 0.5s ease-in-out; 
+}
+
+.imagens img {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0; 
+}
+button {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color:none;
+  color: #0C1E33;
+  border: none;
+  padding: 2px;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 10;
+}
+.primeiralinha,.segundalinha{
+    display:flex;
+}
