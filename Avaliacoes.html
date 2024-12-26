@@ -3,25 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Css/avaliaçoes.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <img  class="logo"  src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
-        <nav>
-            <ul class="nav-list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Indicacoes.html">Indicações</a></li>
-                <li><a href="Avaliacoes.html">Avaliações</a></li>
-                <li><a href="ListaDeEspera.html">Lista de espera</a></li>
-                <li><a href="PorQueLer.html">Por que ler?</a></li>
-                <li><a href="História.html">História</a></li>
-                <li><a href="Reviews.html">Reviews</a></li>
-                <li><a href="Desenvolvedores.html">Atlas Company</a></li>
-            </ul>
-          </nav>
-    </header>
+    <header class="cabecalho">
+        <div class="header-content"> 
+         
+         <nav class="uk-navbar-container-mobile">
+         <div class="uk-container">
+             <div uk-navbar>
+     
+                 <div class="uk-navbar-left">
+                     <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                     <div class="uk-navbar-dropdown">
+                         <ul class="uk-nav uk-navbar-dropdown-nav">
+                             <li class="uk-active"><a href="index.html">Home</a></li>
+                             <li class="uk-active"><a href="Indicacoes.html">Indicações</a></li>
+                             <li class="uk-active"><a href="Avaliacoes.html">Avaliações</a></li>
+                             <li class="uk-active"><a href="ListaDeEspera.html">Lista de espera</a></li>
+                             <li class="uk-active"><a href="PorQueLer.html">Por que ler?</a></li>
+                             <li class="uk-active"><a href="História.html">História</a></li>
+                             <li class="uk-active"><a href="Reviews.html">Reviews</a></li>
+                             <li class="uk-active"><a href="Desenvolvedores.html">Desenvolvedores</a></li>
+                         </ul>
+                     </div>
+                 </div>
+     
+             </div>
+         </div>
+     </nav>
+     <img class="logo"src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
+       </div>
+       <div class="cabecalho-desk">
+       <nav class="uk-navbar-container-desktop">
+         <div class="uk-container">
+             <div uk-navbar="mode: click">
+     
+                 <div class="uk-navbar-left">
+                   <div class="centrarlizarNav">
+                     <ul class="uk-navbar-nav">
+                         <li><a class="outras"href="index.html">Home</a></li>
+                         <li class="uk-active"><a class="atual"href="Avaliacoes.html">Avaliações</a></li>
+                         <li><a class="outras" href="Indicacoes.html">Indicações</a></li>
+                         <li><a  class="outras"href="ListaDeEspera.html">Lista de Espera</a></li>
+                         <li><a class="outras" href="PorQueLer.html">Por que ler?</a></li>
+                         <li><a class="outras" href="História.html">História</a></li>
+                         <li><a class="outras" href="Reviews.html">Reviews</a></li>
+                         <li><a class="outras" href="Desenvolvedores.html">Desenvolvedores</a></li>
+     
+                     </ul>
+                   </div>
+                 </div>
+     
+             </div>
+         </div>
+     </nav>
+     </div>
+     </header>
+    
 
     <div class="Avaliaçõesdasemana">
         <h1>Avaliações literárias da semana.</h1>
