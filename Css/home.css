@@ -10,8 +10,24 @@ header {
     text-align: center;
     display: flex; 
     justify-content:center;
-    padding:25px;
    }
+::-webkit-scrollbar {
+    width: 18px; 
+    height: 12px; 
+}
+::-webkit-scrollbar-thumb {
+    background-color: #0C1E33; 
+    border-radius: 6px; 
+    border: 2px solid #F3EDDF; 
+}
+::-webkit-scrollbar-track {
+    background-color: #F3EDDF; 
+    border-radius: 6px;
+}
+::-webkit-scrollbar-corner {
+    background-color: #0C1E33; 
+    visibility: hidden;
+}
 /*Mobile*/
 @media (max-width: 768px) {
 .cabecalho{
@@ -20,8 +36,12 @@ header {
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    width: 100%;
+    width: auto;
     height: auto;
+}
+.header{
+padding-left:20px;
+padding-right: 20px;
 }
 .header-content {
   display: flex;
@@ -29,13 +49,18 @@ header {
   align-items: center;
   width: 100%;
   position: relative;
-  height: 120px; 
+  height: auto; 
+}
+.uk-nav, .uk-nav ul {
+    margin: 0;
+   
+    list-style: none;
 }
 .uk-navbar-container-mobile {
-     position: absolute; 
+     position:absolute!important; 
      top: 0;
      left: 0;
-     width: 100%;
+     width: 70% !important;
      background-color:#0C1E33 !important;
      padding-bottom: 20px !important;
      max-width:170px;
@@ -47,10 +72,12 @@ header {
 }
 .uk-navbar-dropdown{
     background-color:#0C1E33 !important;
-    padding-left:70px;
+    padding-left:35px;
     padding-top:0px;
     padding-bottom:5px;
-    
+}
+.uk-navbar-dropdown>:last-child{
+  padding-left: 35px;
 }
 .uk-active a {
     color: white !important;
@@ -74,7 +101,7 @@ header {
 .mapa1 { 
   width: 600px; 
   height: 350px; 
-  border: 4px solid #06121F; 
+  border: 1.5px solid #06121F !important; 
   border-radius: 15px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
@@ -92,11 +119,24 @@ header {
   flex-direction: row;
   justify-content: space-around;
   max-width: 800px;
+  align-items: center;
  }
- .empresa{
-  max-width:50px;
-  max-height:130px ;
- }
+.record{
+  max-width:70px;
+  max-height:auto;
+}
+.arqueiro{
+  max-width:100px;
+  max-height:auto;
+}
+.saraiva{
+  max-width:90px;
+  max-height:auto;
+}
+.seguinte{
+  max-width:150px;
+  max-height:auto;
+}
 .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
@@ -105,23 +145,23 @@ header {
   align-items: center;
   font-size: 40px;
 }
-h2{
+.subtitulos{
     font-family: Merriweather Sans, sans-serif;
     color: #0C1E33;
     font-size: 30;
 }
-p {
+.paragrafo{
     font-family: Merriweather Sans, sans-serif;
     color: #0C1E33;
     font-size: 18px;
 }
-h3{
+.L3{
     font-family: Inknut Antiqua;
     color: white;
     font-size: 20px;
 }
-h5{
-font-family: Inknut Antiqua;
+.L5{
+    font-family: Inknut Antiqua;
     color: white;
     font-size: 13px;
 }
@@ -130,25 +170,35 @@ i{
   font-size: 30px;
   color: white;
 }
+.Logoatlas{
+  width:60px;
+  height:95px;
+}
 }
 /*Desktop*/
 @media (min-width: 768px) {
 .uk-navbar-container-mobile{
   visibility: hidden;
+  width: 0px;
 }
 .cabecalho{
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    width: 100%;
-    height: 350px;
+    width: auto;
+    height: auto;
 }
- 
+.header-content {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  
+} 
 .logo {
   display: block;
   max-width: 50%; 
-  margin-top: 20px; 
+  margin-top: 10px; 
 }
 .atual{
   font-family:"Inknut Antiqua",serif !important;
@@ -169,6 +219,7 @@ i{
 }
 .primeiralinha,.segundalinha{
     display:flex;
+    justify-content:space-around;
 }
 .principeCruel,.EueEsseMeuCoracao,.habitosAtomicos,.GarotosdoCemiterio{
   padding: 25px;
@@ -181,10 +232,10 @@ i{
     max-width: 270px;
     max-height: 400px;
   }
-.mapa1 { 
+.mapa1, iframe { 
   width: 700px; 
   height: 500px; 
-  border: 4px solid #06121F; 
+  border: 1.5px solid #06121F !important; 
   border-radius: 15px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
@@ -202,11 +253,24 @@ i{
   flex-direction: row;
   justify-content: space-around;
   max-width: 100%;
+  align-items: center;
  }
- .empresa{
-  max-width:270px;
-  max-height:130px ;
- }
+.record{
+  max-width:80px;
+  max-height:auto;
+}
+.arqueiro{
+  max-width:120px;
+  max-height:auto;
+}
+.saraiva{
+  max-width:100px;
+  max-height:auto;
+}
+.seguinte{
+  max-width:200px;
+  max-height:auto;
+}
 .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
@@ -214,25 +278,26 @@ i{
   justify-content: center;
   align-items: center;
   font-size: 60px;
-  padding: 10px;
+  padding-top: 10px;
 }
-h2{
+.subtitulos{
     font-family: Merriweather Sans, sans-serif;
     color: #0C1E33;
     font-size: 30;
 }
-p {
+.paragrafo {
     font-family: Merriweather Sans, sans-serif;
     color: #0C1E33;
     font-size: 18px;
 }
-h3{
+.L3{
     font-family: Inknut Antiqua;
     color: white;
-    font-size: 20px;
+    font-size: 28px;
 }
-h5{
-font-family: Inknut Antiqua;
+
+.L5{
+    font-family: Inknut Antiqua;
     color: white;
     font-size: 13px;
 }
@@ -241,13 +306,16 @@ i{
   font-size: 25px;
   color: white;
 }
+.Logoatlas{
+  width:70px;
+  height:110px;
+}
 }
 /*Footer*/
 .minerva{
   background-color: #0C1E33;
   text-align: center;
   padding-top: 20px;
-  
 }
 .minerva a {
   color: white; 
@@ -256,7 +324,7 @@ i{
   transition: transform 0.3s ease; 
 }
 .minerva a:hover {
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
 .redesSociais {
   text-align: center;
@@ -327,7 +395,7 @@ button {
   z-index: 10;
 }
 .botao{
-  max-width:300px ;
+  max-width:400px ;
   display: flex;
   justify-content: space-around;
 }
