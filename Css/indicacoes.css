@@ -67,7 +67,7 @@ position: relative;
 }
 .uk-navbar-dropdown{
     background-color:#0C1E33 !important;
-    padding-left:35px;
+    padding-left:35px !important;
     padding-top:0px;
     padding-bottom:5px;
 }
