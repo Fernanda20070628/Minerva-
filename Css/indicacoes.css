@@ -37,13 +37,18 @@ padding-left:20px;
 padding-right: 20px;
 }
 .cabecalho{
-display: flex;
-flex-direction: column; 
-justify-content: center; 
-align-items: center; 
-width: auto;
-height: auto;
-position: relative;
+   
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    width: auto;
+    height: auto;
+    position: relative;
+}
+.header{
+padding-left:20px;
+padding-right: 20px;
 }
 .header-content {
   display: flex;
@@ -53,20 +58,24 @@ position: relative;
   position: relative;
   height: auto; 
 }
+.uk-nav, .uk-nav ul {
+  margin: 0;
+  list-style: none;
+}
 .uk-navbar-container-mobile {
-     position: absolute; 
+     position:absolute; 
      top: 0;
      left: 0;
      width: 70% !important;
      background-color:#0C1E33 !important;
      padding-bottom: 20px !important;
-     max-width:170px;
+     max-width:180px;
 }
 .logo {
   display: block;
   max-width: 20%; 
-  margin-top: 80px;
-  position: absolute !important;
+  margin-top: 80px; 
+  position: relative !important;
 }
 .uk-navbar-dropdown{
     background-color:#0C1E33 !important;
@@ -75,10 +84,7 @@ position: relative;
     padding-bottom:5px;
 }
 .uk-navbar-dropdown>:last-child{
-  padding-left: 35px!important;
-}
-.uk-navbar-dropdown-nav{
-    padding-left:inherit;
+  padding-left: 35px;
 }
 .uk-active a {
     color: white !important;
