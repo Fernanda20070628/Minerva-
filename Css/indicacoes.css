@@ -51,7 +51,7 @@ position: relative;
   align-items: center;
   width: 100%;
   position: relative;
-  height: 120px; 
+  height: auto; 
 }
 .uk-navbar-container-mobile {
      position: absolute; 
