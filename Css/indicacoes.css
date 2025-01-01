@@ -8,6 +8,7 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+
 header {
     background-color: #0C1E33; 
     text-align: center;
@@ -30,25 +31,16 @@ header {
 ::-webkit-scrollbar-corner {
     background-color: #0C1E33; 
 }
-/*Mobile*/   
+/*Mobile*/
 @media (max-width: 768px) {
-.header{
-padding-left:20px;
-padding-right: 20px;
-}
 .cabecalho{
-   
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    width: auto;
-    height: auto;
-    position: relative;
-}
-.header{
-padding-left:20px;
-padding-right: 20px;
+display: flex;
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+width: auto;
+height: auto;
+position: relative;
 }
 .header-content {
   display: flex;
@@ -58,24 +50,20 @@ padding-right: 20px;
   position: relative;
   height: auto; 
 }
-.uk-nav, .uk-nav ul {
-  margin: 0;
-  list-style: none;
-}
 .uk-navbar-container-mobile {
-     position:absolute; 
+     position: absolute; 
      top: 0;
      left: 0;
      width: 70% !important;
      background-color:#0C1E33 !important;
      padding-bottom: 20px !important;
-     max-width:180px;
+     max-width:170px;
 }
 .logo {
   display: block;
   max-width: 20%; 
-  margin-top: 80px; 
-  position: relative !important;
+  margin-top: 80px;
+  position: absolute !important;
 }
 .uk-navbar-dropdown{
     background-color:#0C1E33 !important;
@@ -84,7 +72,10 @@ padding-right: 20px;
     padding-bottom:5px;
 }
 .uk-navbar-dropdown>:last-child{
-  padding-left: 35px;
+  padding-left: 35px!important;
+}
+.uk-navbar-dropdown-nav{
+    padding-left:inherit;
 }
 .uk-active a {
     color: white !important;
