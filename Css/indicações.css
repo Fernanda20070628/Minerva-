@@ -4,6 +4,9 @@
 
 body{
     background-color: #F3EDDF;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -41,6 +44,7 @@ justify-content: center;
 align-items: center; 
 width: auto;
 height: auto;
+position: relative;
 }
 .header-content {
   display: flex;
@@ -51,7 +55,7 @@ height: auto;
   height: 120px; 
 }
 .uk-navbar-container-mobile {
-     position: absolute !important; 
+     position: absolute; 
      top: 0;
      left: 0;
      width: 70% !important;
@@ -62,7 +66,8 @@ height: auto;
 .logo {
   display: block;
   max-width: 20%; 
-  margin-top: 80px; 
+  margin-top: 80px;
+  position: absolute !important;
 }
 .uk-navbar-dropdown{
     background-color:#0C1E33 !important;
@@ -84,7 +89,10 @@ height: auto;
 .uk-navbar-container-desktop{
   visibility: hidden;
 }
-
+.comoFunciona{
+  justify-content: center;
+  align-items: center;
+}
 .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
@@ -115,7 +123,7 @@ font-family: Inknut Antiqua;
 }
 i{
   font-family: Inknut Antiqua;
-  font-size: 30px;
+  font-size: 35px;
   color: white;
 }
 .livros,.comoFunciona{
@@ -133,7 +141,7 @@ i{
   text-align: justify;
 }
 .Logoatlas{
-  width:60px;
+  width:70px;
   height:110px;
 }
 }
@@ -182,7 +190,10 @@ i{
     display: flex;
     justify-content: space-between;
 }
-
+.comoFunciona{
+  justify-content: center;
+  align-items: center;
+}
 .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
@@ -216,7 +227,7 @@ font-family: Inknut Antiqua;
 }
 i{
   font-family: Inknut Antiqua;
-  font-size: 25px;
+  font-size: 40px;
   color: white;
 }
 .livros,.comoFunciona{
@@ -268,7 +279,7 @@ i{
 .icones {
   display: flex;          
   justify-content: center; 
-  gap: 20px;
+  gap: 40px;
   margin-top: 10px;
 }
 
