@@ -1,15 +1,13 @@
+/*Mobile*/
 @media (max-width: 768px) {
 .comoFunciona{
   justify-content: center;
   align-items: center;
 }
-.livros,.comoFunciona{
-  padding:20px;
-}
 .imglivros{
     max-width: 180px;
     max-height: 270px;
-}
+  }
 .milvezes,.MelhordoQ,.pacienteSilenciosa,.OIluminado,.NemteConto,.DeSangueeCinzas{
   padding: 25px;
   display: flex;
@@ -20,6 +18,10 @@
 }
 /*Desktop*/
 @media (min-width: 768px) {
+.primeiralinha, .segundalinha, .terceiralinha {
+    display: flex;
+    justify-content: space-between;
+}
 .comoFunciona{
   justify-content: center;
   align-items: center;
@@ -43,3 +45,44 @@
     justify-content: space-between;
 }
 }
+/*Footer*/
+.minerva{
+  background-color: #0C1E33;
+  text-align: center;
+  padding-top: 20px;
+  
+}
+.minerva a {
+  color: white; 
+  text-decoration: none; 
+  display:block; 
+  transition: transform 0.3s ease; 
+}
+.minerva a:hover {
+  transform: scale(1.1); 
+}
+.redesSociais {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.redesSociais a:hover {
+  transform: scale(1.1); 
+}
+.icones {
+  display: flex;          
+  justify-content: center; 
+  gap: 40px;
+  margin-top: 10px;
+}
+
+.icones a {
+  font-size: 30px;        
+  color: white;            
+  text-decoration: none;
+}
+.Atlas{
+  background-color: #06121F;
+  text-align: center;
+  padding: 20px;
+}
+/*até aqui é igual para todos!*/
