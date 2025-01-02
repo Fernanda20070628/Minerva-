@@ -222,18 +222,45 @@ header {
     justify-content: center;
     align-items: center;
    }
-   .titulo{
+  .titulo{
+  font-family: "Cinzel Decorative", serif;
+  color:#0C1E33;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  padding-top: 10px;
+}
+.subtitulos{
     font-family: Merriweather Sans, sans-serif;
     color: #0C1E33;
-    font-size: 22px;
-   }
-   p{
+    font-size: 30;
+}
+.paragrafo {
     font-family: Merriweather Sans, sans-serif;
-      color: #0C1E33;
-      font-size: 16px;
-      display: flex;
-      align-items: first baseline;
-  }
+    color: #0C1E33;
+    font-size: 18px;
+}
+.L3{
+    font-family: Inknut Antiqua;
+    color: white;
+    font-size: 28px;
+}
+
+.L5{
+    font-family: Inknut Antiqua;
+    color: white;
+    font-size: 13px;
+}
+i{
+  font-family: Inknut Antiqua;
+  font-size: 40px;
+  color: white;
+}
+.Logoatlas{
+  width:70px;
+  height:110px;
+}
   .liv{
     padding: 45px;
   margin: 73px;
