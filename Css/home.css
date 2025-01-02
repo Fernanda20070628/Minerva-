@@ -360,13 +360,14 @@ i{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%; 
+  width:70%; 
 }
+
 .carrossel {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 800px; 
+  max-width: 100%; 
   margin: auto;
   position: relative;
   overflow: hidden; 
@@ -381,31 +382,35 @@ i{
   width: 100%;
   height: auto;
   flex-shrink: 0; 
-  border-radius:3%;
-  padding-left: 35px;
-  padding-right: 35px;
+  border-radius: 3%;
+  padding-left: 5%;  
+  padding-right: 5%; 
 }
-.feiraInfantil{
-margin-left: 50px;
+
+.feiraInfantil {
+  margin-left: 5%; 
 }
-.feiraLiteraria{
-margin-left: 2px;
+
+.feiraLiteraria {
+  margin-left: 0.5%; 
 }
+
 button {
-  max-height: 60px;
+  max-height: 8%;  
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  background-color:#F3EDDF;
+  background-color: #F3EDDF;
   color: #0C1E33;
   border: none;
-  padding: 2px;
+  padding: 1%; 
   cursor: pointer;
-  font-size: 35px;
+  font-size: 5vw;  
   z-index: 10;
 }
-.botao{
-  max-width:400px ;
+
+.botao {
+  max-width: 50%;  
   display: flex;
   justify-content: space-around;
 }
