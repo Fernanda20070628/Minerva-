@@ -1,76 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PT-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link href="Css/espera.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
-   <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
-   <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
-   <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
-   <link rel="manifest" href="Favicon/site.webmanifest">
-  <title>Lista de Espera</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/espera.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/site.webmanifest">
+    <title>Document</title>
+
 </head>
 <body>
     <header class="cabecalho">
-   <div class="header-content"> 
+        <div class="header-content"> 
+         
+         <nav class="uk-navbar-container-mobile">
+         <div class="uk-container">
+             <div uk-navbar>
+     
+                 <div class="uk-navbar-left">
+                     <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                     <div class="uk-navbar-dropdown">
+                         <ul class="uk-nav uk-navbar-dropdown-nav">
+                             <li class="uk-active"><a href="index.html">Home</a></li>
+                             <li class="uk-active"><a href="Indicacoes.html">Indicações</a></li>
+                             <li class="uk-active"><a href="Avaliacoes.html">Avaliações</a></li>
+                             <li class="uk-active"><a href="ListaDeEspera.html">Lista de espera</a></li>
+                             <li class="uk-active"><a href="PorQueLer.html">Por que ler?</a></li>
+                             <li class="uk-active"><a href="História.html">História</a></li>
+                             <li class="uk-active"><a href="Reviews.html">Reviews</a></li>
+                             <li class="uk-active"><a href="Desenvolvedores.html">Desenvolvedores</a></li>
+                         </ul>
+                     </div>
+                 </div>
+     
+             </div>
+         </div>
+     </nav>
+     <img class="logo"src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
+       </div>
+       <div class="cabecalho-desk">
+       <nav class="uk-navbar-container-desktop">
+         <div class="uk-container">
+             <div uk-navbar="mode: click">
+     
+                 <div class="uk-navbar-left">
+                   <div class="centrarlizarNav">
+                     <ul class="uk-navbar-nav">
+                         <li><a class="outras"href="index.html">Home</a></li>
+                         <li class="uk-active"><a class="atual"href="ListaDeEspera.html">Lista de espera</a></li>
+                         <li><a class="outras" href="Avaliacoes.html">Avaliações</a></li>
+                         <li><a class="outras"href="Indicacoes.html">Indicações</a></li>
+                         <li><a class="outras" href="PorQueLer.html">Por que ler?</a></li>
+                         <li><a class="outras" href="História.html">História</a></li>
+                         <li><a class="outras" href="Reviews.html">Reviews</a></li>
+                         <li><a class="outras" href="Desenvolvedores.html">Desenvolvedores</a></li>
+     
+                     </ul>
+                   </div>
+                 </div>
+     
+             </div>
+         </div>
+     </nav>
+     
+     </div>
+     </header>
     
-    <nav class="uk-navbar-container-mobile">
-    <div class="uk-container">
-        <div uk-navbar>
-
-            <div class="uk-navbar-left">
-                <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
-                <div class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
-                        <li class="uk-active"><a href="index.html">Home</a></li>
-                        <li class="uk-active"><a href="Indicacoes.html">Indicações</a></li>
-                        <li class="uk-active"><a href="Avaliacoes.html">Avaliações</a></li>
-                        <li class="uk-active"><a href="ListaDeEspera.html">Lista de espera</a></li>
-                        <li class="uk-active"><a href="PorQueLer.html">Por que ler?</a></li>
-                        <li class="uk-active"><a href="História.html">História</a></li>
-                        <li class="uk-active"><a href="Reviews.html">Reviews</a></li>
-                        <li class="uk-active"><a href="Desenvolvedores.html">Desenvolvedores</a></li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
+    <div class="espera">
+        <h1 class="title-prin">Lista de espera.</h1>
+        <p class="text-prin">Confira quais livros estão na lista de espera.</p>
     </div>
-</nav>
-<img class="logo"src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
-  </div>
-  <div class="cabecalho-desk">
-  <nav class="uk-navbar-container-desktop">
-    <div class="uk-container">
-        <div uk-navbar="mode: click">
-
-            <div class="uk-navbar-left">
-              <div class="centrarlizarNav">
-                <ul class="uk-navbar-nav">
-                    <li ><a class="outras"href="index.html">Home</a></li>
-                    <li><a class="outras"href="Indicacoes.html">Indicações</a></li>
-                    <li><a class="outras" href="Avaliacoes.html">Avaliações</a></li>
-                    <li class="uk-active"><a class="atual" href="ListaDeEspera.html">Lista de Espera</a></li>
-                    <li><a class="outras" href="PorQueLer.html">Por que ler?</a></li>
-                    <li><a class="outras" href="História.html">História</a></li>
-                    <li><a class="outras" href="Reviews.html">Reviews</a></li>
-                    <li><a class="outras" href="Desenvolvedores.html">Desenvolvedores</a></li>
-
-                </ul>
-              </div>
-            </div>
-
+    <div class="livross">
+        <div class="liv" id="0">
+            <h3 class="titulo">O Último Suspiro do Outono-Clara Souza</h3>
+            <p class="text">Um romance histórico que segue a jornada de uma jovem durante os últimos dias da monarquia brasileira, enquanto ela tenta descobrir segredos de sua família escondidos no passado.</p>
         </div>
-    </div>
-</nav>
+
+        <div class="liv" id="1">
+            <h3 class="titulo">O Códice de Ouro-Rafael Costa</h3>
+            <p class="text">Um thriller de mistério, onde um arqueólogo tenta decifrar um códice medieval que revela um segredo capaz de mudar a história da humanidade.</p>
+        </div>
+
+        <div class="liv" id="2">
+            <h3 class="titulo">No Silêncio das Estrelas-Marina Lima</h3>
+            <p class="text">Um romance de ficção científica onde um astronauta, perdido em um planeta distante, luta para sobreviver enquanto busca uma forma de comunicação com a Terra.</p>
+        </div>
+
+        <div class="liv" id="3">
+            <h3 class="titulo">A Ilha dos Sonhos Perdidos- Pedro Almeida</h3>
+            <p class="text"> Um grupo de amigos naufraga em uma ilha misteriosa, onde são forçados a enfrentar seus maiores medos e inseguranças enquanto tentam escapar do local.</p>
+        </div>
+
+        <div class="liv" id="4">
+            <h3 class="titulo">Vidas Entrelaçadas- Lara Monteiro</h3>
+            <p class="text">Uma narrativa sobre três mulheres que vivem em épocas e lugares diferentes, mas cujas histórias se conectam por um destino comum.</p>
+        </div>
+
+        <div class="liv" id="5">
+            <h3 class="titulo">O Eco do Passado- Marcos Tavares </h3>
+            <p class="text">Um romance psicológico onde um homem retorna à cidade natal para investigar o suicídio misterioso de sua irmã, desenterrando segredos de família que ele nunca soubera.
+            </p>
+        </div>
+
+        <div class="liv" id="6">
+            <h3 class="titulo">O Guardião dos Ventos- Fernanda Pimentel </h3>
+            <p class="text">Em um mundo onde os ventos têm poderes mágicos, um jovem é escolhido para proteger o equilíbrio dos quatro ventos elementares, mas ele logo descobre que seu destino está ligado a uma grande traição.
+            </p>
+        </div>
+
+        <div class="liv" id="7">
+            <h3 class="titulo">Caminhos da Esperança-Eduardo Almeida  </h3>
+            <p class="text">Uma obra que narra a luta de um refugiado sírio tentando reconstruir sua vida no Brasil, enfrentando dificuldades culturais, sociais e emocionais.
+            </p>
+        </div>
+
+        <div class="liv" id="8">
+            <h3 class="titulo">A Lenda do Fogo Eterno-Júlia Martins</h3>
+            <p class="text">Um épico de fantasia em um reino onde o fogo é sagrado, e uma jovem guerreira deve embarcar em uma jornada para proteger a última chama mágica de um destino sombrio.
+            </p>
+        </div>
+
+        <div class="liv" id="9">
+            <h3 class="titulo">O Labirinto das Almas- Tiago Salles</h3>
+            <p class="text">Um romance de mistério e fantasia onde um detetive investiga uma série de mortes que parecem ter origem em um antigo labirinto espiritual.</p>
+        </div>
+
+        <div class="liv" id="10">
+            <h3 class="titulo">Sombras de Vidro- Lívia Rocha </h3>
+            <p class="text">Um suspense psicológico sobre uma mulher que começa a perder a memória e desconfia que os seus vizinhos estão envolvidos em algo muito mais sombrio do que parece.
+
+            </p>
+        </div>
+
+        <div class="liv" id="11">
+            <h3 class="titulo">A Última Cartografia- Felipe Duarte  </h3>
+            <p class="text">Um geógrafo do futuro embarca em uma expedição para mapear uma região misteriosa onde as leis da física parecem não se aplicar, colocando sua sanidade à prova.
+            </p>
+        </div>
+
+        <div class="liv" id="12">
+            <h3 class="titulo">O Som das Árvores-Mariana Dias</h3>
+            <p class="text"> Um romance poético que segue a vida de uma mulher que, após a perda de sua mãe, busca um novo começo em uma pequena vila no interior, aprendendo sobre os segredos de sua herança ancestral.</p>
+        </div>
+
+        <div class="liv" id="13">
+            <h3 class="titulo">Entre o Fogo e a neve- Bruno Silveira</h3>
+            <p class="text">Um romance de guerra ambientado em 1944, onde dois soldados inimigos, um russo e um alemão, acabam se unindo para sobreviver a uma batalha mortal na Rússia.</p>
+        </div>
+
+        <div class="liv" id="14">
+            <h3 class="titulo">O Rei da Rua de Cima-Carla Mendonça </h3>
+            <p class="text">Uma obra de ficção urbana que narra a história de um jovem de uma comunidade pobre que, após se envolver com o crime, tenta mudar sua vida enquanto lida com a violência e as escolhas do passado.</p>
+        </div>
+
+        <div class="liv" id="15">
+            <h3 class="titulo">Sombra de um Inverno-Renato Costa</h3>
+            <p class="text">Um suspense psicológico em que um escritor de sucesso se vê preso em um pesadelo, sendo perseguido por um assassino desconhecido que parece saber tudo sobre sua vida.
+            </p>
+        </div>
+
+        <div class="liv" id="16">
+            <h3 class="titulo">A Fenda no Horizonte-André Santos</h3>
+            <p class="text">Em um mundo pós-apocalíptico, um pequeno grupo de sobreviventes luta para alcançar a "Fenda", um lugar onde, segundo as lendas, a Terra ainda possui vestígios de vida.
+            </p>
+        </div>
+
+        <div class="liv" id="17">
+            <h3 class="titulo">Memórias de um Corvo-Helena Albuquerque</h3>
+            <p class="text">Uma narrativa introspectiva sobre um corvo que viveu diversas vidas ao longo dos séculos, observando os seres humanos e seus conflitos, enquanto tenta encontrar sentido em sua existência imortal.</p>
+        </div>
 </div>
-</header>
-
 <footer>
     <div class="minerva">
     <div class="redesSociais">
@@ -99,7 +205,9 @@
        <a href="mailto:atlas.company.tech@gmail.com?subject=Assunto%20do%20Email&body=Corpo%20do%20email%20aqui."><i class="bi bi-envelope"></i></a>
      </div>
   </footer>
- <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+      <script src="JS/listadeespera.js"></script>
+
 </body>
 </html>
