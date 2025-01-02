@@ -34,7 +34,7 @@ header {
 /*Mobile*/
 @media (max-width: 768px) {
 .cabecalho{
-   
+   overflow-x: hidden;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
