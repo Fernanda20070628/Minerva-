@@ -45,9 +45,9 @@ header {
     position: relative;
 }
 .header{
-padding-left:20px;
-padding-right: 20px;
-}
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 .header-content {
   display: flex;
   justify-content: center; 
@@ -69,12 +69,12 @@ padding-right: 20px;
      padding-bottom: 20px !important;
      max-width:180px;
 }
-.logo {
-  display: block;
-  max-width: 20%; 
-  margin-top: 80px; 
-  position: relative !important;
-}
+ .logo {
+    display: block;
+    max-width: 30%; 
+    margin-top: 10vh; 
+    position: relative !important;
+  }
 .uk-navbar-dropdown{
     background-color:#0C1E33 !important;
     padding-left:35px;
@@ -82,8 +82,8 @@ padding-right: 20px;
     padding-bottom:5px;
 }
 .uk-navbar-dropdown>:last-child{
-  padding-left: 35px;
-}
+    padding-left: 5%;
+  }
 .uk-active a {
     color: white !important;
     font-family: "Inknut Antiqua",serif;
@@ -92,40 +92,40 @@ padding-right: 20px;
 .uk-navbar-container-desktop{
   visibility: hidden;
 }
-.principeCruel,.EueEsseMeuCoracao,.habitosAtomicos,.GarotosdoCemiterio{
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
-}
+.principeCruel, .EueEsseMeuCoracao, .habitosAtomicos, .GarotosdoCemiterio {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
 .livros{
-    max-width: 180px;
-    max-height: 270px;
+    max-width: 50%;
+    max-height: auto;
   }
-.mapa1 { 
-  width: 600px; 
-  height: 350px; 
-  border: 1.5px solid #06121F !important; 
-  border-radius: 15px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  .mapa1 { 
+    width: 70%; 
+    height: 60%; 
+    border: 1.5px solid #06121F !important; 
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
-.mapa{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
- }
+  .mapa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5%;
+  }
  .patrocinio{
   align-items: center;
  }
  .patrocinadores{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  max-width: 800px;
-  align-items: center;
- }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 80%;
+    align-items: center;
+  }
 .record{
   max-width:65px;
   max-height:auto;
@@ -176,12 +176,12 @@ i{
   color: white;
 }
 .Logoatlas{
-  width:60px;
-  height:95px;
+    width: 20%;
+    height: auto;
 }
 .clubedeLeitura{
-  margin-left: 25px;
-}
+    margin-left: 5%;
+  }
 }
 /*Desktop*/
 @media (min-width: 768px) {
