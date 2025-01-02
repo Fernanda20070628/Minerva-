@@ -7,6 +7,8 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    outline: 1px solid red;
+
 }
 header {
     background-color: #0C1E33; 
@@ -57,7 +59,6 @@ padding-right: 20px;
 .uk-nav, .uk-nav ul {
   margin: 0;
   list-style: none;
-    overflow-x: hidden;
 }
 .uk-navbar-container-mobile {
      position:absolute; 
