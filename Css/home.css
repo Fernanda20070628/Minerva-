@@ -13,8 +13,7 @@ header {
     text-align: center;
     display: flex; 
     justify-content:center;
-    overflow-x: hidden;
-   }
+}
 ::-webkit-scrollbar {
     width: 18px; 
     height: 12px; 
@@ -58,6 +57,7 @@ padding-right: 20px;
 .uk-nav, .uk-nav ul {
   margin: 0;
   list-style: none;
+    overflow-x: hidden;
 }
 .uk-navbar-container-mobile {
      position:absolute; 
