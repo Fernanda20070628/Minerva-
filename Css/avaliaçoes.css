@@ -33,7 +33,6 @@ header {
    /*mobile*/
    @media (max-width: 768px) {
     .cabecalho{
-       
         display: flex;
         flex-direction: column; 
         justify-content: center; 
@@ -123,12 +122,10 @@ header {
       font-size: 30px;
       color: white;
     }
-    
-    
+  
     .Logoatlas{
       width:60px;
       height:95px;
-    }
     }
     .Avaliaçõesdasemana{
       margin: 17px;}
@@ -160,7 +157,7 @@ header {
         color: #0C1E33;
         font-size: 13px;
     }
-    p{
+    paragrafo{
       font-family: Merriweather Sans, sans-serif;
         color: #0C1E33;
         font-size: 18px;
@@ -180,8 +177,7 @@ header {
         max-height: 257px;
 
     }
-      
-
+}
 
 /*desktop*/
 @media (min-width: 768px) {
@@ -221,18 +217,9 @@ header {
     align-items: center;
   }
 
-    .Avaliaçõesdasemana{
+.Avaliaçõesdasemana{
       margin: 28px;
     }
-  
-  .titulos{
-    font-family: "Cinzel Decorative", serif;
-    color:#0C1E33;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 60px;
-  }
 .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
@@ -279,7 +266,7 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-}}
+}
 .stars{
   font-size: 30px;        
   color: rgb(255, 217, 0);            
@@ -318,6 +305,7 @@ p{
   max-width: 125px;
     max-height: 257px;
   
+}
 }
 /*Footer*/
 .minerva{
