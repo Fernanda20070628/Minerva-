@@ -1,6 +1,4 @@
-
 @media (max-width: 768px) {
-
 .comoFunciona{
   justify-content: center;
   align-items: center;
@@ -11,7 +9,7 @@
 .imglivros{
     max-width: 180px;
     max-height: 270px;
-  }
+}
 .milvezes,.MelhordoQ,.pacienteSilenciosa,.OIluminado,.NemteConto,.DeSangueeCinzas{
   padding: 25px;
   display: flex;
@@ -22,7 +20,6 @@
 }
 /*Desktop*/
 @media (min-width: 768px) {
-
 .comoFunciona{
   justify-content: center;
   align-items: center;
