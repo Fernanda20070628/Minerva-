@@ -113,12 +113,12 @@ header {
         justify-content: center;
         align-items: center;
        }
-       .titulo{
+       .titulos{
         font-family: Merriweather Sans, sans-serif;
         color: #0C1E33;
         font-size: 22px;
        }
-       p{
+       paragrafo{
         font-family: Merriweather Sans, sans-serif;
           color: #0C1E33;
           font-size: 16px;
@@ -222,7 +222,7 @@ header {
     justify-content: center;
     align-items: center;
    }
-  .titulo{
+  .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
   display: flex;
@@ -303,4 +303,3 @@ i{
     padding: 20px;
   }
 
-}
