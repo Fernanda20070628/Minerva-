@@ -63,11 +63,11 @@ position: relative;
      max-width:170px;
 }
 .logo {
-    display: block;
-    max-width: 30%; 
-    margin-top: 10vh; 
-    position: relative !important;
-  }
+  display: block;
+  max-width: 20%; 
+  margin-top: 80px;
+  position: absolute !important;
+}
 .uk-navbar-dropdown{
     background-color:#0C1E33 !important;
     padding-left:35px;
