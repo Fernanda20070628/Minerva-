@@ -98,6 +98,7 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: justify;
+    width:90%;
   }
 .livros{
     max-width: 50%;
@@ -366,7 +367,7 @@ i{
 .carrossel {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 90%;
   max-width: 100%; 
   margin: auto;
   position: relative;
