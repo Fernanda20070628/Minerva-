@@ -195,7 +195,7 @@ i{
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
-    width: auto;
+    width: 100%;
     height: auto;
 }
 .header-content {
@@ -205,10 +205,10 @@ i{
   
 } 
 .logo {
-  display: block;
-  max-width: 50%; 
-  margin-top: 10px; 
-}
+    display: block;
+    max-width: 40%; 
+    margin-top: 2%;
+  }
 .atual{
   font-family:"Inknut Antiqua",serif !important;
   text-transform: none !important;
@@ -230,29 +230,29 @@ i{
     display:flex;
     justify-content:space-around;
 }
-.principeCruel,.EueEsseMeuCoracao,.habitosAtomicos,.GarotosdoCemiterio{
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: justify;
+.principeCruel, .EueEsseMeuCoracao, .habitosAtomicos, .GarotosdoCemiterio{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+.livros {
+    max-width: 20%;
+    max-height: 40%;
 }
-.livros{
-    max-width: 270px;
-    max-height: 400px;
-  }
 .mapa1, iframe { 
-  width: 700px; 
-  height: 500px; 
-  border: 1.5px solid #06121F !important; 
-  border-radius: 15px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
+    width: 60%; 
+    height: 40%;  
+    border: 1.5px solid #06121F !important; 
+    border-radius: 5%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .mapa{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 10px;
+  padding: 5%;
  }
 .patrocinio{
   align-items: center;
@@ -315,19 +315,19 @@ i{
   font-size: 40px;
   color: white;
 }
-.Logoatlas{
-  width:70px;
-  height:110px;
+.Logoatlas {
+    width: 10%;  
+    height: auto;
 }
-.clubedeLeitura{
-  margin-left: 55px;
+.clubedeLeitura {
+    margin-left: 5%; 
 }
 }
 /*Footer*/
 .minerva{
   background-color: #0C1E33;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 2%;
 }
 .minerva a {
   color: white; 
@@ -340,21 +340,22 @@ i{
 }
 .redesSociais {
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 .redesSociais a:hover {
   transform: scale(1.1); 
 }
 .icones {
-  display: flex;          
-  justify-content: center; 
-  gap: 40px;
-  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 5%;  
+  margin-top: 2%; 
 }
 .Atlas{
   background-color: #06121F;
   text-align: center;
-  padding: 20px;
+  padding: 2%;
+}
 }
 /*até aqui é igual para todos!*/
 .carrossel-container {
