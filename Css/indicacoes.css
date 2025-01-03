@@ -34,6 +34,9 @@
 .livros,.comoFunciona{
   padding:20px;
 }
+.livros{
+  width:100%
+}
 .imglivros{
     max-width: 45%;
     max-height: auto;
