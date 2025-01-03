@@ -125,21 +125,21 @@ header {
     justify-content: space-around;
     align-items: center;
   }
-.record{
-  max-width:65px;
-  max-height:auto;
+.record {
+  max-width: 10%;
+  max-height: auto;
 }
-.arqueiro{
-  max-width:95px;
-  max-height:auto;
+.arqueiro {
+  max-width: 15%;
+  max-height: auto;
 }
-.saraiva{
-  max-width:85px;
-  max-height:auto;
+.saraiva {
+  max-width: 13%;
+  max-height: auto;
 }
-.seguinte{
-  max-width:140px;
-  max-height:auto;
+.seguinte {
+  max-width: 22%;
+  max-height: auto;
 }
 .titulos{
   font-family: "Cinzel Decorative", serif;
@@ -261,21 +261,21 @@ i{
   max-width: 100%;
   align-items: center;
  }
-.record{
-  max-width:75px;
-  max-height:auto;
+.record {
+  max-width: 10%;
+  max-height: auto;
 }
-.arqueiro{
-  max-width:115px;
-  max-height:auto;
+.arqueiro {
+  max-width: 15.33%;
+  max-height: auto;
 }
-.saraiva{
-  max-width:100px;
-  max-height:auto;
+.saraiva {
+  max-width: 13.33%;
+  max-height: auto;
 }
-.seguinte{
-  max-width:180px;
-  max-height:auto;
+.seguinte {
+  max-width: 24%;
+  max-height: auto;
 }
 .titulos{
   font-family: "Cinzel Decorative", serif;
