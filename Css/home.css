@@ -105,8 +105,7 @@ header {
     max-height: auto;
   }
   .mapa1 { 
-    width: 70%; 
-    height: 60%; 
+    width: 100%; 
     border: 1.5px solid #06121F !important; 
     border-radius: 5%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -124,7 +123,6 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    max-width: 80%;
     align-items: center;
   }
 .record{
@@ -238,21 +236,20 @@ i{
     text-align: justify;
   }
 .livros {
-    max-width: 20%;
-    max-height: 40%;
+    max-width: 40%;
+    max-height: 50%;
 }
 .mapa1, iframe { 
-    width: 60%; 
-    height: 40%;  
+    width: 70%; 
     border: 1.5px solid #06121F !important; 
-    border-radius: 5%; 
+    border-radius: 13px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .mapa{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 5%;
+  padding: 2%;
  }
 .patrocinio{
   align-items: center;
@@ -316,7 +313,7 @@ i{
   color: white;
 }
 .Logoatlas {
-    width: 10%;  
+    width: 12%;  
     height: auto;
 }
 .clubedeLeitura {
