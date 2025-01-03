@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
 }
-.livros, .comoFunciona {
+.livrosIndicados, .comoFunciona {
   padding: 5%;
 }
 .imglivros {
@@ -31,14 +31,14 @@
   justify-content: center;
   align-items: center;
 }
-.livros,.comoFunciona{
+.livrosIndicados,.comoFunciona{
   padding:20px;
 }
-.livros{
+.livrosIndicados{
   width:100%
 }
 .imglivros{
-    max-width: 45%;
+    max-width: 70%;
     max-height: auto;
 }
 .milvezes,.MelhordoQ,.pacienteSilenciosa,.OIluminado,.NemteConto,.DeSangueeCinzas{
