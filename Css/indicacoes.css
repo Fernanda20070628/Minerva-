@@ -30,9 +30,7 @@
 .comoFunciona{
   justify-content: center;
   align-items: center;
-}
-.livrosIndicados,.comoFunciona{
-  padding:20px;
+  padding:5%
 }
 .livrosIndicados{
   width:100%
