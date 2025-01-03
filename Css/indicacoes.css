@@ -64,7 +64,7 @@ position: relative;
 }
 .logo {
   display: block;
-  max-width: 20%; 
+  max-width: 30%; 
   margin-top: 80px;
   position: absolute !important;
 }
