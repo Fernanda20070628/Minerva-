@@ -1,6 +1,4 @@
-.active{
-    display: block;
-}
+
  @media (max-width: 768px) {
      .espera{
         margin: 28px;
@@ -22,13 +20,16 @@
         align-items: center;
        }
       
-      .liv{
+      .livro{
         padding: 45px;
       margin: 73px;
       border:2px  solid #0C1E33;
       border-radius: 25px;
-      
+       display: none;
       }
+     .livro.active{
+    display: block;
+  }
 }
     /*desktop*/
 @media (min-width: 768px) {
@@ -51,10 +52,14 @@
     justify-content: center;
     align-items: center;
    }
-  .liv{
+  .livro{
     padding: 45px;
   margin: 73px;
   border:2px  solid #0C1E33;
   border-radius: 25px;
+  display: none;
+  }
+ .livro.active{
+ display: block;
   }
 }
