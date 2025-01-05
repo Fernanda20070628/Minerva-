@@ -126,19 +126,19 @@ header {
     align-items: center;
   }
 .record {
-  max-width: 10%;
+  max-width: 70%;
   max-height: auto;
 }
 .arqueiro {
-  max-width: 15%;
+  max-width: 45%;
   max-height: auto;
 }
 .saraiva {
-  max-width: 13%;
+  max-width: 80%;
   max-height: auto;
 }
 .seguinte {
-  max-width: 22%;
+  max-width: 66%;
   max-height: auto;
 }
 .titulos{
@@ -240,7 +240,8 @@ i{
     max-height: 50%;
 }
 .mapa1, iframe { 
-    width: 70%; 
+    width: 70%;
+    height:auto;
     border: 1.5px solid #06121F !important; 
     border-radius: 13px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -262,19 +263,19 @@ i{
   align-items: center;
  }
 .record {
-  max-width: 10%;
+  max-width: 55%
   max-height: auto;
 }
 .arqueiro {
-  max-width: 15.33%;
+  max-width: 35%;
   max-height: auto;
 }
-.saraiva {
-  max-width: 13.33%;
+  .saraiva {
+  max-width: 65%;
   max-height: auto;
 }
 .seguinte {
-  max-width: 24%;
+  max-width: 48%;
   max-height: auto;
 }
 .titulos{
