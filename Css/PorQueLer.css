@@ -13,7 +13,6 @@ ul {
 ul li a {
   color: #0066cc;
   text-decoration: none;
-  font-weight: bold;
 }
 ul li a:hover {
   text-decoration: underline;
