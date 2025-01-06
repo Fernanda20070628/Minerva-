@@ -126,20 +126,20 @@ header {
     align-items: center;
   }
 .record {
-  max-width: 70%;
-  max-height: auto;
+  width: 70%;
+  height: auto;
 }
 .arqueiro {
-  max-width: 45%;
-  max-height: auto;
+  width: 45%;
+  height: auto;
 }
 .saraiva {
-  max-width: 80%;
-  max-height: auto;
+ width: 80%;
+ height: auto;
 }
 .seguinte {
   max-width: 66%;
-  max-height: auto;
+  height: auto;
 }
 .titulos{
   font-family: "Cinzel Decorative", serif;
@@ -267,16 +267,16 @@ i{
   max-height: auto;
 }
 .arqueiro {
-  max-width: 35%;
-  max-height: auto;
+  width: 35%;
+  height: auto;
 }
   .saraiva {
-  max-width: 65%;
-  max-height: auto;
+  width: 65%;
+  height: auto;
 }
 .seguinte {
-  max-width: 48%;
-  max-height: auto;
+  width: 48%;
+  height: auto;
 }
 .titulos{
   font-family: "Cinzel Decorative", serif;
