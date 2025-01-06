@@ -1,27 +1,23 @@
 /* Imagem de início */
-.imagem-inicio {
+.imgpqler{
   width: 80%;
   height: auto;
   margin-bottom: 20px;
 }
-
 /* Links */
 ul {
   list-style: none;
   padding: 0;
   margin-top: 10px;
 }
-
 ul li a {
   color: #0066cc;
   text-decoration: none;
   font-weight: bold;
 }
-
 ul li a:hover {
   text-decoration: underline;
 }
-
 /* Botão de exibir/ocultar sugestões */
 #toggle-button {
   display: block;
@@ -34,20 +30,16 @@ ul li a:hover {
   cursor: pointer;
   font-size: 16px;
 }
-
 #toggle-button:hover {
   background-color: #555;
 }
-
 /* Sugestões ocultas por padrão */
 .hidden {
   display: none;
 }
-
 /* Responsividade */
 @media (max-width: 768px) {
   article {
     padding: 2%;
   }
-
 }
