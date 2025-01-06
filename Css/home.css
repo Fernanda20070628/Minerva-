@@ -125,16 +125,17 @@ header {
     justify-content: space-around;
     align-items: center;
   }
-.record {
+
+.linkrecord {
   width: 70%;
   }
-.arqueiro {
+.linkarqueiro {
   width: 45%;
 }
-.saraiva {
+.linksaraiva {
  width: 80%;
 }
-.seguinte {
+.linkseguinte {
   width: 66%;
  }
 .titulos{
@@ -237,7 +238,7 @@ i{
 }
 .mapa1, iframe { 
     width: 70%;
-    height:auto;
+    height:50%;
     border: 1.5px solid #06121F !important; 
     border-radius: 13px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -258,16 +259,16 @@ i{
   max-width: 100%;
   align-items: center;
  }
-.record {
+.linkrecord {
   width: 55%
   }
-.arqueiro {
+.linkarqueiro {
   width: 35%;
  }
-  .saraiva {
+  .linksaraiva {
   width: 65%;
   }
-.seguinte {
+.linkseguinte {
   width: 48%;
   }
 .titulos{
