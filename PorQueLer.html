@@ -19,24 +19,59 @@
 </head>
 
 <body>
-  <header>
-    <div class="header-content">
-      <img class="logo" src="Imagens/logos/Logo Minersa s fundo.png" alt="Logo Minerva">
-      <nav>
-        <ul class="uk-navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="Indicacoes.html">Indicações</a></li>
-          <li><a href="Avaliacoes.html">Avaliações</a></li>
-          <li><a href="ListaDeEspera.html">Lista de Espera</a></li>
-          <li><a href="PorQueLer.html" class="uk-active">Por que ler?</a></li>
-          <li><a href="História.html">História</a></li>
-          <li><a href="Reviews.html">Reviews</a></li>
-          <li><a href="Desenvolvedores.html">Desenvolvedores</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+ <header class="cabecalho">
+   <div class="header-content"> 
+    
+    <nav class="uk-navbar-container-mobile">
+    <div class="uk-container">
+        <div uk-navbar>
 
+            <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
+                <div class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                        <li class="uk-active"><a href="index.html">Home</a></li>
+                        <li class="uk-active"><a href="Indicacoes.html">Indicações</a></li>
+                        <li class="uk-active"><a href="Avaliacoes.html">Avaliações</a></li>
+                        <li class="uk-active"><a href="ListaDeEspera.html">Lista de espera</a></li>
+                        <li class="uk-active"><a href="PorQueLer.html">Por que ler?</a></li>
+                        <li class="uk-active"><a href="História.html">História</a></li>
+                        <li class="uk-active"><a href="Reviews.html">Reviews</a></li>
+                        <li class="uk-active"><a href="Desenvolvedores.html">Desenvolvedores</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<img class="logo"src="Imagens/logos/Logo Minersa s fundo.png" alt="logo minerva">
+  </div>
+  <div class="cabecalho-desk">
+  <nav class="uk-navbar-container-desktop">
+    <div class="uk-container">
+        <div uk-navbar="mode: click">
+
+            <div class="uk-navbar-left">
+              <div class="centrarlizarNav">
+                <ul class="uk-navbar-nav">
+                    <li ><a class="outras"href="index.html">Home</a></li>
+                    <li><a class="outras"href="Indicacoes.html">Indicações</a></li>
+                    <li><a class="outras" href="Avaliacoes.html">Avaliações</a></li>
+                    <li><a  class="outras"href="ListaDeEspera.html">Lista de Espera</a></li>
+                    <li class="uk-active"><a class="atual" href="PorQueLer.html">Por que ler?</a></li>
+                    <li><a class="outras" href="História.html">História</a></li>
+                    <li><a class="outras" href="Reviews.html">Reviews</a></li>
+                    <li><a class="outras" href="Desenvolvedores.html">Desenvolvedores</a></li>
+
+                </ul>
+              </div>
+            </div>
+
+        </div>
+    </div>
+</nav>
+</div>
+</header>
   <main>
     <article>
       <!-- Imagem de início -->
