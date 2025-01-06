@@ -1,3 +1,14 @@
+#historia{
+padding:2%;
+}
+.image{
+  width:80%;
+}
+.fundadora{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 /*Mobile*/
 @media (max-width: 768px) {
 
