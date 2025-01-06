@@ -1,13 +1,13 @@
-// Seleciona o botão e a lista de sugestões
+//botão e sugestão 
 const button = document.getElementById('toggle-button');
 const sugestoes = document.getElementById('sugestoes');
 
-// Adiciona um evento de clique no botão
+// click click no botão 
 button.addEventListener('click', () => {
-  // Alterna a classe 'hidden' na lista de sugestões
+  // alterna o hidden da classe 
   sugestoes.classList.toggle('hidden');
 
-  // Altera o texto do botão dinamicamente
+  // muda texto 
   if (sugestoes.classList.contains('hidden')) {
     button.textContent = 'Mostrar Sugestões';
     button.style.backgroundColor = '#0C1E33'; // Cor padrão
