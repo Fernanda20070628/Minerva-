@@ -127,20 +127,16 @@ header {
   }
 .record {
   width: 70%;
-  height: auto;
-}
+  }
 .arqueiro {
   width: 45%;
-  height: auto;
 }
 .saraiva {
  width: 80%;
- height: auto;
 }
 .seguinte {
-  max-width: 66%;
-  height: auto;
-}
+  width: 66%;
+ }
 .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
@@ -263,21 +259,17 @@ i{
   align-items: center;
  }
 .record {
-  max-width: 55%
-  max-height: auto;
-}
+  width: 55%
+  }
 .arqueiro {
   width: 35%;
-  height: auto;
-}
+ }
   .saraiva {
   width: 65%;
-  height: auto;
-}
+  }
 .seguinte {
   width: 48%;
-  height: auto;
-}
+  }
 .titulos{
   font-family: "Cinzel Decorative", serif;
   color:#0C1E33;
