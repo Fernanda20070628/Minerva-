@@ -127,16 +127,20 @@ header {
   }
 
 .linkrecord {
-  width: 70%;
+  width: 33%;
+  padding:2%;
   }
 .linkarqueiro {
   width: 45%;
+  padding:2%;
 }
 .linksaraiva {
- width: 80%;
+ width: 40%;
+ padding:2%;
 }
 .linkseguinte {
   width: 66%;
+  padding:2%;
  }
 .titulos{
   font-family: "Cinzel Decorative", serif;
@@ -260,16 +264,20 @@ i{
   align-items: center;
  }
 .linkrecord {
-  width: 55%
+  width: 20%
+  padding:2%;
   }
 .linkarqueiro {
-  width: 35%;
+  width: 25%;
+  padding:2%;
  }
   .linksaraiva {
-  width: 65%;
+  width: 45%;
+  padding:2%;
   }
 .linkseguinte {
-  width: 48%;
+  width: 35%;
+  padding:2%;
   }
 .titulos{
   font-family: "Cinzel Decorative", serif;
