@@ -1,8 +1,34 @@
-/*Mobile*/
+.reviews{
+  padding:2%;
+}/*Mobile*/
 @media (max-width: 768px) {
-
+.analeticia,.guilherme,.fabiana,.olivia,.clara,.amanda{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  }
 }
 /*Desktop*/
 @media (min-width: 768px) {
-
+.dupla1,.dupla2,.dupla3{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.analeticia,.guilherme,.fabiana,.olivia,.clara,.amanda{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  width: 100%;
+  border: 1px solid #D2BA2B;
+  margin: 2%;
+}
+}
+.perfil{
+  width:80%;
+  margin:2%;
 }
