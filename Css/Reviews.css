@@ -9,6 +9,10 @@
   text-align: center;
   width: 100%;
   }
+.stars{
+font-size: 35px;
+color:#D2BA2B;
+}
 }
 /*Desktop*/
 @media (min-width: 768px) {
