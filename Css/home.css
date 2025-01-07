@@ -243,7 +243,6 @@ i{
 }
 .mapa1, iframe { 
     width: 70%;
-    height:50%;
     border: 1.5px solid #06121F !important; 
     border-radius: 13px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
