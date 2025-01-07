@@ -242,7 +242,7 @@ i{
     max-height: 50%;
 }
 .mapa1, iframe { 
-    width: 70%;
+    width: 60%;
     border: 1.5px solid #06121F !important; 
     border-radius: 13px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -265,10 +265,10 @@ i{
   align-items: center;
  }
 .linkrecord {
-  width: 20%
+  width: 16%
    }
 .linkarqueiro {
-  width: 25%;
+  width: 22%;
  }
   .linksaraiva {
   width: 26%;
