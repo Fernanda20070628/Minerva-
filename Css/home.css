@@ -118,6 +118,7 @@ header {
   }
  .patrocinio{
   align-items: center;
+   padding:2%;
  }
  .patrocinadores{
     display: flex;
@@ -255,6 +256,7 @@ i{
  }
 .patrocinio{
   align-items: center;
+  padding:2%;
  }
  .patrocinadores{
   display: flex;
