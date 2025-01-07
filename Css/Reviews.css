@@ -27,6 +27,10 @@
   border: 1px solid #D2BA2B;
   margin: 2%;
 }
+.stars{
+size: 20px;
+color:#D2BA2B;
+}
 }
 .perfil{
   width:80%;
