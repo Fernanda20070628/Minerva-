@@ -1,8 +1,22 @@
-/*Mobile*/
-@media (max-width: 768px) {
-
+.desenvolvedores{
+  padding:2%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-/*Desktop*/
-@media (min-width: 768px) {
-
+.ImagensDev{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.companhia,.nós{
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.L4{
+    font-family: Inknut Antiqua;
+    color:#0C1E33;
+    font-size: 30px;
+    text-align: center;
 }
