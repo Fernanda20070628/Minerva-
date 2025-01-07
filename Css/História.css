@@ -9,11 +9,3 @@ padding:2%;
   justify-content:center;
   align-items:center;
 }
-/*Mobile*/
-@media (max-width: 768px) {
-
-}
-/*Desktop*/
-@media (min-width: 768px) {
-
-}
